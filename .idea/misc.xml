@@ -5,13 +5,15 @@
       <map>
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/drawable/ic_right.xml" value="0.18888888888888888" />
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/activity_second.xml" value="0.22" />
+        <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/activity_second.xml" value="0.209375" />
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/fragment_image_and_context.xml" value="0.209375" />
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/fragment_p_p_t_.xml" value="0.1953125" />
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/fragment_test.xml" value="0.209375" />
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/fragment_topics.xml" value="0.209375" />
         <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/fragment_video.xml" value="0.209375" />
-        <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/item_models.xml" value="0.209375" />
+        <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/image_slider.xml" value="0.209375" />
+        <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/item_models.xml" value="0.33" />
+        <entry key="..\:/Users/IDGROUP/AndroidStudioProjects/Independencework/app/src/main/res/layout/slider_layout.xml" value="0.209375" />
       </map>
     </option>
   </component>
