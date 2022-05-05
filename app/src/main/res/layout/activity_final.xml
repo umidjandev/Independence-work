@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".presentention.activity.FinalActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="#121212"
+        android:padding="5dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_final"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic" />
+
+    <TextView
+        android:id="@+id/first_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buradadjkn\nkjdsj\nkjkd\nhdjaa"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="#121212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_final" />
+
+    <ImageView
+        android:id="@+id/image_final_2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_right"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_text" />
+
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bura\nckmsk\njndjcn\njonjdnjdaa"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="#121212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_final_2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

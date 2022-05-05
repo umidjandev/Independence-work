@@ -1,17 +1,14 @@
 package com.example.independencework.presentention.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
-import com.example.independencework.Main222;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.independencework.R;
 
 public class MainActivity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton startBtn = findViewById(R.id.startBtn);
         startBtn.setOnClickListener(e -> {
-            Intent intent = new Intent(this, Main222.class);
+            Intent intent = new Intent(this, SecondActivity.class);
             startActivity(intent);
         });
 

@@ -11,31 +11,32 @@ import com.example.independencework.R;
 import com.example.independencework.domain.Callback;
 import com.example.independencework.domain.Model;
 
-import java.util.List;
+import java.util.ArrayList;
 
-public class ImageContext_Adapter extends RecyclerView.Adapter<TopicsViewHolder> {
+public class PhoneAdapter extends RecyclerView.Adapter<PhViewHolder> {
 
-    private List<Model> items;
+    private ArrayList<Model> items ;
     private Callback callback;
 
-    public ImageContext_Adapter(List<Model> items, Callback callback) {
+    public PhoneAdapter(ArrayList<Model> items, Callback callback) {
         this.items = items;
         this.callback = callback;
-    }
 
+    }
 
     @NonNull
     @Override
-    public TopicsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View template = LayoutInflater
-                .from(parent.getContext())
-                .inflate(R.layout.item_models,parent,false);
-        return new TopicsViewHolder(template);
+    public PhViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View template = LayoutInflater.
+                from(parent.getContext()).
+                inflate(R.layout.item_models,parent,false);
+        return new PhViewHolder(template);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull TopicsViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull PhViewHolder holder, int position) {
         holder.bind(items.get(position),callback);
+
     }
 
     @Override
