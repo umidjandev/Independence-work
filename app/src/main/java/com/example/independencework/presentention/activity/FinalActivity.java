@@ -28,5 +28,7 @@ public class FinalActivity extends AppCompatActivity {
         binding.firstText.setText(model.context);
         binding.secondText.setText(model.context2);
 
+        // git check
+
     }
 }
